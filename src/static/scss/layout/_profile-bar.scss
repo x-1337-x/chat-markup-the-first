@@ -1,0 +1,145 @@
+.profile-bar {
+  flex-grow: 1;
+  min-width: 275px;
+  background-color: #fff;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #d6d7da;
+
+  .header-control-item {
+    display: inline-flex;
+    min-height: 80px;
+    width: 80px;
+    line-height: 80px;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+
+      &:before {
+        width: 6px;
+        height: 6px;
+        content: '';
+        display: block;
+        border-radius: 100%;
+        background-color: #0084ff;
+        position: absolute;
+        top: -5px;
+        left: -10px;
+      }
+    }
+  }
+
+  .text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 80px;
+    color: #6f7579;
+    text-align: center;
+    @extend .truncate;
+    align-self: flex-end;
+    min-height: 80px;
+    flex-grow: 1;
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 0; 
+      height: 0; 
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      border-top: 3px solid #0084ff;
+      right:25px;
+      top: 37px;
+      position: absolute;       
+    }
+  }
+}
+
+.profile-thumbnail {
+  border-bottom: 1px solid #d6d7da;
+  position: relative;
+  min-height: 260px;
+  
+  .chat-type {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+  }
+
+  .controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .mugshot {
+    min-height: 260px;
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+    .avatar {
+      @extend .avatar;
+      width: 120px;
+      height: 120px;
+      background-size: contain;
+      margin: auto;
+    }
+
+    .text {
+      margin-bottom: 35px;
+      
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .origin {
+        font-size: 14px;
+        font-weight: 400;
+        color: #737373;
+      }
+    }
+  }
+}
+
+.details-container {
+  padding: 20px 30px;
+  
+  .detail {
+    @extend .clearfix;
+    padding: 15px 5px;
+
+    + .detail {
+      border-top: 1px solid #e9e9e9;    
+    }
+    
+    .detail-name {
+        float: left;
+        max-width: 50%;
+        font-size: 13px;
+        font-weight: 700;
+        color: #737373;
+    }
+
+    .detail-value {
+      float: right;
+      max-width: 50%;
+      font-size: 13px;
+      font-weight: 400;
+      color: #737373;
+    }
+  }
+}

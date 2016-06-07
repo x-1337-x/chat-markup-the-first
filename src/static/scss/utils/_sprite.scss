@@ -1,0 +1,316 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-f-b-name: 'icon-FB';
+$icon-f-b-x: 0px;
+$icon-f-b-y: 42px;
+$icon-f-b-offset-x: 0px;
+$icon-f-b-offset-y: -42px;
+$icon-f-b-width: 39px;
+$icon-f-b-height: 40px;
+$icon-f-b-total-width: 136px;
+$icon-f-b-total-height: 102px;
+$icon-f-b-image: '../i/sprite.png';
+$icon-f-b: (0px, 42px, 0px, -42px, 39px, 40px, 136px, 102px, '../i/sprite.png', 'icon-FB', );
+$icon-hamburger-menu-icon-name: 'icon-Hamburger-Menu-Icon';
+$icon-hamburger-menu-icon-x: 99px;
+$icon-hamburger-menu-icon-y: 63px;
+$icon-hamburger-menu-icon-offset-x: -99px;
+$icon-hamburger-menu-icon-offset-y: -63px;
+$icon-hamburger-menu-icon-width: 16px;
+$icon-hamburger-menu-icon-height: 12px;
+$icon-hamburger-menu-icon-total-width: 136px;
+$icon-hamburger-menu-icon-total-height: 102px;
+$icon-hamburger-menu-icon-image: '../i/sprite.png';
+$icon-hamburger-menu-icon: (99px, 63px, -99px, -63px, 16px, 12px, 136px, 102px, '../i/sprite.png', 'icon-Hamburger-Menu-Icon', );
+$icon-add-contact-name: 'icon-add-contact';
+$icon-add-contact-x: 93px;
+$icon-add-contact-y: 82px;
+$icon-add-contact-offset-x: -93px;
+$icon-add-contact-offset-y: -82px;
+$icon-add-contact-width: 15px;
+$icon-add-contact-height: 10px;
+$icon-add-contact-total-width: 136px;
+$icon-add-contact-total-height: 102px;
+$icon-add-contact-image: '../i/sprite.png';
+$icon-add-contact: (93px, 82px, -93px, -82px, 15px, 10px, 136px, 102px, '../i/sprite.png', 'icon-add-contact', );
+$icon-call-name: 'icon-call';
+$icon-call-x: 99px;
+$icon-call-y: 42px;
+$icon-call-offset-x: -99px;
+$icon-call-offset-y: -42px;
+$icon-call-width: 21px;
+$icon-call-height: 21px;
+$icon-call-total-width: 136px;
+$icon-call-total-height: 102px;
+$icon-call-image: '../i/sprite.png';
+$icon-call: (99px, 42px, -99px, -42px, 21px, 21px, 136px, 102px, '../i/sprite.png', 'icon-call', );
+$icon-emoji-name: 'icon-emoji';
+$icon-emoji-x: 77px;
+$icon-emoji-y: 42px;
+$icon-emoji-offset-x: -77px;
+$icon-emoji-offset-y: -42px;
+$icon-emoji-width: 22px;
+$icon-emoji-height: 21px;
+$icon-emoji-total-width: 136px;
+$icon-emoji-total-height: 102px;
+$icon-emoji-image: '../i/sprite.png';
+$icon-emoji: (77px, 42px, -77px, -42px, 22px, 21px, 136px, 102px, '../i/sprite.png', 'icon-emoji', );
+$icon-fb-small-name: 'icon-fb-small';
+$icon-fb-small-x: 0px;
+$icon-fb-small-y: 82px;
+$icon-fb-small-offset-x: 0px;
+$icon-fb-small-offset-y: -82px;
+$icon-fb-small-width: 20px;
+$icon-fb-small-height: 20px;
+$icon-fb-small-total-width: 136px;
+$icon-fb-small-total-height: 102px;
+$icon-fb-small-image: '../i/sprite.png';
+$icon-fb-small: (0px, 82px, 0px, -82px, 20px, 20px, 136px, 102px, '../i/sprite.png', 'icon-fb-small', );
+$icon-more-dark-name: 'icon-more-dark';
+$icon-more-dark-x: 77px;
+$icon-more-dark-y: 77px;
+$icon-more-dark-offset-x: -77px;
+$icon-more-dark-offset-y: -77px;
+$icon-more-dark-width: 15px;
+$icon-more-dark-height: 3px;
+$icon-more-dark-total-width: 136px;
+$icon-more-dark-total-height: 102px;
+$icon-more-dark-image: '../i/sprite.png';
+$icon-more-dark: (77px, 77px, -77px, -77px, 15px, 3px, 136px, 102px, '../i/sprite.png', 'icon-more-dark', );
+$icon-more-name: 'icon-more';
+$icon-more-x: 92px;
+$icon-more-y: 77px;
+$icon-more-offset-x: -92px;
+$icon-more-offset-y: -77px;
+$icon-more-width: 15px;
+$icon-more-height: 3px;
+$icon-more-total-width: 136px;
+$icon-more-total-height: 102px;
+$icon-more-image: '../i/sprite.png';
+$icon-more: (92px, 77px, -92px, -77px, 15px, 3px, 136px, 102px, '../i/sprite.png', 'icon-more', );
+$icon-n-name: 'icon-n';
+$icon-n-x: 41px;
+$icon-n-y: 0px;
+$icon-n-offset-x: -41px;
+$icon-n-offset-y: 0px;
+$icon-n-width: 41px;
+$icon-n-height: 42px;
+$icon-n-total-width: 136px;
+$icon-n-total-height: 102px;
+$icon-n-image: '../i/sprite.png';
+$icon-n: (41px, 0px, -41px, 0px, 41px, 42px, 136px, 102px, '../i/sprite.png', 'icon-n', );
+$icon-notifications-name: 'icon-notifications';
+$icon-notifications-x: 41px;
+$icon-notifications-y: 82px;
+$icon-notifications-offset-x: -41px;
+$icon-notifications-offset-y: -82px;
+$icon-notifications-width: 18px;
+$icon-notifications-height: 18px;
+$icon-notifications-total-width: 136px;
+$icon-notifications-total-height: 102px;
+$icon-notifications-image: '../i/sprite.png';
+$icon-notifications: (41px, 82px, -41px, -82px, 18px, 18px, 136px, 102px, '../i/sprite.png', 'icon-notifications', );
+$icon-paperclip-name: 'icon-paperclip';
+$icon-paperclip-x: 122px;
+$icon-paperclip-y: 0px;
+$icon-paperclip-offset-x: -122px;
+$icon-paperclip-offset-y: 0px;
+$icon-paperclip-width: 14px;
+$icon-paperclip-height: 24px;
+$icon-paperclip-total-width: 136px;
+$icon-paperclip-total-height: 102px;
+$icon-paperclip-image: '../i/sprite.png';
+$icon-paperclip: (122px, 0px, -122px, 0px, 14px, 24px, 136px, 102px, '../i/sprite.png', 'icon-paperclip', );
+$icon-search-name: 'icon-search';
+$icon-search-x: 122px;
+$icon-search-y: 24px;
+$icon-search-offset-x: -122px;
+$icon-search-offset-y: -24px;
+$icon-search-width: 14px;
+$icon-search-height: 14px;
+$icon-search-total-width: 136px;
+$icon-search-total-height: 102px;
+$icon-search-image: '../i/sprite.png';
+$icon-search: (122px, 24px, -122px, -24px, 14px, 14px, 136px, 102px, '../i/sprite.png', 'icon-search', );
+$icon-send-name: 'icon-send';
+$icon-send-x: 59px;
+$icon-send-y: 82px;
+$icon-send-offset-x: -59px;
+$icon-send-offset-y: -82px;
+$icon-send-width: 19px;
+$icon-send-height: 16px;
+$icon-send-total-width: 136px;
+$icon-send-total-height: 102px;
+$icon-send-image: '../i/sprite.png';
+$icon-send: (59px, 82px, -59px, -82px, 19px, 16px, 136px, 102px, '../i/sprite.png', 'icon-send', );
+$icon-skype-name: 'icon-skype';
+$icon-skype-x: 82px;
+$icon-skype-y: 0px;
+$icon-skype-offset-x: -82px;
+$icon-skype-offset-y: 0px;
+$icon-skype-width: 40px;
+$icon-skype-height: 41px;
+$icon-skype-total-width: 136px;
+$icon-skype-total-height: 102px;
+$icon-skype-image: '../i/sprite.png';
+$icon-skype: (82px, 0px, -82px, 0px, 40px, 41px, 136px, 102px, '../i/sprite.png', 'icon-skype', );
+$icon-star-sm-gray-name: 'icon-star-sm-gray';
+$icon-star-sm-gray-x: 122px;
+$icon-star-sm-gray-y: 38px;
+$icon-star-sm-gray-offset-x: -122px;
+$icon-star-sm-gray-offset-y: -38px;
+$icon-star-sm-gray-width: 14px;
+$icon-star-sm-gray-height: 12px;
+$icon-star-sm-gray-total-width: 136px;
+$icon-star-sm-gray-total-height: 102px;
+$icon-star-sm-gray-image: '../i/sprite.png';
+$icon-star-sm-gray: (122px, 38px, -122px, -38px, 14px, 12px, 136px, 102px, '../i/sprite.png', 'icon-star-sm-gray', );
+$icon-star-sm-yellow-name: 'icon-star-sm-yellow';
+$icon-star-sm-yellow-x: 122px;
+$icon-star-sm-yellow-y: 50px;
+$icon-star-sm-yellow-offset-x: -122px;
+$icon-star-sm-yellow-offset-y: -50px;
+$icon-star-sm-yellow-width: 14px;
+$icon-star-sm-yellow-height: 12px;
+$icon-star-sm-yellow-total-width: 136px;
+$icon-star-sm-yellow-total-height: 102px;
+$icon-star-sm-yellow-image: '../i/sprite.png';
+$icon-star-sm-yellow: (122px, 50px, -122px, -50px, 14px, 12px, 136px, 102px, '../i/sprite.png', 'icon-star-sm-yellow', );
+$icon-star-name: 'icon-star';
+$icon-star-x: 20px;
+$icon-star-y: 82px;
+$icon-star-offset-x: -20px;
+$icon-star-offset-y: -82px;
+$icon-star-width: 21px;
+$icon-star-height: 19px;
+$icon-star-total-width: 136px;
+$icon-star-total-height: 102px;
+$icon-star-image: '../i/sprite.png';
+$icon-star: (20px, 82px, -20px, -82px, 21px, 19px, 136px, 102px, '../i/sprite.png', 'icon-star', );
+$icon-thumbs-up-name: 'icon-thumbs-up';
+$icon-thumbs-up-x: 78px;
+$icon-thumbs-up-y: 82px;
+$icon-thumbs-up-offset-x: -78px;
+$icon-thumbs-up-offset-y: -82px;
+$icon-thumbs-up-width: 15px;
+$icon-thumbs-up-height: 16px;
+$icon-thumbs-up-total-width: 136px;
+$icon-thumbs-up-total-height: 102px;
+$icon-thumbs-up-image: '../i/sprite.png';
+$icon-thumbs-up: (78px, 82px, -78px, -82px, 15px, 16px, 136px, 102px, '../i/sprite.png', 'icon-thumbs-up', );
+$icon-viber-name: 'icon-viber';
+$icon-viber-x: 0px;
+$icon-viber-y: 0px;
+$icon-viber-offset-x: 0px;
+$icon-viber-offset-y: 0px;
+$icon-viber-width: 41px;
+$icon-viber-height: 42px;
+$icon-viber-total-width: 136px;
+$icon-viber-total-height: 102px;
+$icon-viber-image: '../i/sprite.png';
+$icon-viber: (0px, 0px, 0px, 0px, 41px, 42px, 136px, 102px, '../i/sprite.png', 'icon-viber', );
+$icon-video-call-name: 'icon-video-call';
+$icon-video-call-x: 77px;
+$icon-video-call-y: 63px;
+$icon-video-call-offset-x: -77px;
+$icon-video-call-offset-y: -63px;
+$icon-video-call-width: 22px;
+$icon-video-call-height: 14px;
+$icon-video-call-total-width: 136px;
+$icon-video-call-total-height: 102px;
+$icon-video-call-image: '../i/sprite.png';
+$icon-video-call: (77px, 63px, -77px, -63px, 22px, 14px, 136px, 102px, '../i/sprite.png', 'icon-video-call', );
+$icon-whatsapp-name: 'icon-whatsapp';
+$icon-whatsapp-x: 39px;
+$icon-whatsapp-y: 42px;
+$icon-whatsapp-offset-x: -39px;
+$icon-whatsapp-offset-y: -42px;
+$icon-whatsapp-width: 38px;
+$icon-whatsapp-height: 38px;
+$icon-whatsapp-total-width: 136px;
+$icon-whatsapp-total-height: 102px;
+$icon-whatsapp-image: '../i/sprite.png';
+$icon-whatsapp: (39px, 42px, -39px, -42px, 38px, 38px, 136px, 102px, '../i/sprite.png', 'icon-whatsapp', );
+$spritesheet-width: 136px;
+$spritesheet-height: 102px;
+$spritesheet-image: '../i/sprite.png';
+$spritesheet-sprites: ($icon-f-b, $icon-hamburger-menu-icon, $icon-add-contact, $icon-call, $icon-emoji, $icon-fb-small, $icon-more-dark, $icon-more, $icon-n, $icon-notifications, $icon-paperclip, $icon-search, $icon-send, $icon-skype, $icon-star-sm-gray, $icon-star-sm-yellow, $icon-star, $icon-thumbs-up, $icon-viber, $icon-video-call, $icon-whatsapp, );
+$spritesheet: (136px, 102px, '../i/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

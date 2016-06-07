@@ -1,0 +1,81 @@
+.chat-menu {
+  background-color: $chat-menu-bg;
+  min-width: 230px;
+  min-height: 100%;
+  position: relative;
+  padding: 20px;
+  z-index: 20;
+
+  &:after {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.chat-menu--header {
+  min-height: 75px;
+  position: relative;
+  line-height: 41px;
+}
+
+.menu-header-item--title {
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #bdbec0;
+}
+
+.menu-header-item--icon {
+  border-radius: 100%;
+  border: 1px solid #51565c;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 35px;
+
+  .icon-add-contact {
+    margin-top: -4px;
+  }
+}
+
+.chat-menu--block {
+  
+  a {
+    color: #a0a4a7;
+    @extend .clearfix;
+    display: block;
+    padding: 6px 10px;
+  }
+
+  .chat-menu--list-item {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .chat-menu--list-item-value {
+    float: right;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}
+
+.chat-menu--divider {
+  border-bottom: 1px solid #383f46;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

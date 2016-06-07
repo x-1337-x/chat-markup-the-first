@@ -1,0 +1,52 @@
+.sub-nav {
+  background-color: $subnav-bg;
+  min-width: 80px;
+  min-height: 100%;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  z-index: 10;
+
+  &:after {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+  }
+
+  .subnav-item {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    line-height: 60px;
+    min-height: 60px;
+    position: relative;
+    z-index: 11;
+    
+    &.active {
+      background: $chat-menu-bg;
+      border-radius: 5px 0 0 5px;
+      box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.subnav-menu {
+  padding: 8px;
+  display: block;
+}
+
+.icon-Hamburger-Menu-Icon {
+  display: block;
+  margin-left: 30px;
+  margin-bottom: 45px;
+}
+

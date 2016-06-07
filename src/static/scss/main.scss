@@ -1,6 +1,17 @@
 @import './utils/variables';
+@import './utils/mixins';
+@import './utils/sprite';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,100';
+@include sprites($spritesheet-sprites);
+
 
 @import './base/reset';
 @import './base/base';
 
 @import './pages/home';
+
+@import './layout/subnav';
+@import './layout/chat-menu';
+@import './layout/contact-list';
+@import './layout/chat-body';
+@import './layout/profile-bar';

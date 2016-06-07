@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
 <title>Index</title>
@@ -8,29 +8,378 @@
 <link rel="stylesheet" href="../static/css/style.css">
 <!-- endbuild -->
 </head>
-<body>  
-
-  <div class="p-home">
-
-    <div class="p-home--promo">
-      <div class="p-home--promo-title">Title</div>
-      <div class="p-home--promo-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ut eos qui esse cupiditate obcaecati minus ipsam mollitia ab assumenda sequi excepturi nisi incidunt ducimus laudantium, officia atque enim repudiandae?</div>
-    </div>
-
-    <div class="p-home--teasers">
-      <div class="p-home--teaser">
-        1
-      </div>
-      <div class="p-home--teaser">
-        2
-      </div>
-    </div>
-
+<body>
+  <!-- SUBNAV -->
+  <div class="sub-nav">
+    <a href="#" class="subnav-menu"><span class="icon icon-Hamburger-Menu-Icon"></span></a>
+    <a href="#" class="subnav-item"><span class="icon icon-whatsapp"></span></a>
+    <a href="#" class="subnav-item active"><span class="icon icon-FB"></span></a>
+    <a href="#" class="subnav-item"><span class="icon icon-viber"></span></a>
+    <a href="#" class="subnav-item"><span class="icon icon-skype"></span></a>
+    <a href="#" class="subnav-item"><span class="icon icon-n"></span></a>
   </div>
 
-  <!-- build:js ../static/js/common.js -->
-<script src="../static/js/common.js"></script>
-<!-- endbuild -->
+  <!-- CHAT MENU -->
+  <div class="chat-menu">
+    <div class="chat-menu--header">
+      <span class="menu-header-item--title">Inbox</span>
+      <a href="#" class="menu-header-item--icon"><span class="icon icon-add-contact"></span></a>
+    </div>
+
+    <ul class="chat-menu--block">
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Messages</span>
+          <span class="chat-menu--list-item-value">21</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Unread</span>
+          <span class="chat-menu--list-item-value">89</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Important</span>
+          <span class="chat-menu--list-item-value">6</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Drafts</span>
+          <span class="chat-menu--list-item-value">27</span>
+        </a>
+      </li>
+    </ul>
+    
+    <div class="chat-menu--divider"></div>
+
+    <ul class="chat-menu--block">
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Teams</span>
+          <span class="chat-menu--list-item-value">4</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Groups</span>
+          <span class="chat-menu--list-item-value">3</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Channels</span>
+          <span class="chat-menu--list-item-value">18</span>
+        </a>
+      </li> 
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">locations</span>
+          <span class="chat-menu--list-item-value"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="chat-menu--list-item">Media</span>
+          <span class="chat-menu--list-item-value">120</span>
+        </a>
+      </li>
+    </ul>  
+
+    <div class="chat-menu--divider"></div>
+
+    <ul class="chat-menu--block">
+      <li><a href="#"><span class="chat-menu--list-item">Help</span></a></li>
+      <li><a href="#"><span class="chat-menu--list-item">Settings</span></a></li>
+    </ul>
+  </div>
+
+  <!-- CONTACT LIST -->
+  <div class="contact-list">
+    <div class="contacts-list--search-block">
+      <div class="contact-list--search-input">
+        <span class="icon icon-search"></span>
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <div class="contact-list--contacts">
+      
+      <div class="contact-list--item online">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Matt_Thompson.png');">
+        </div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Matt Thompson</span>
+          <span class="contact-list--item-body--message">Thanks again you have been...</span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">5 min</span>
+        </div>
+      </div>
+
+      <div class="contact-list--item">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Claire_Sharwood.png');"></div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Claire Sharwood</span>
+          <span class="contact-list--item-body--message">My selfie game is lacking can...</span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">10 min</span>
+        </div>
+      </div>
+
+      <div class="contact-list--item active">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Kirsten_Mckellar.png');"></div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Kirsten Mckellar</span>
+          <span class="contact-list--item-body--message">Where is the nearest place to...</span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">2 min</span>
+        </div>
+      </div>
+      
+      <div class="contact-list--item online">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Shaun_Gardner.png');"></div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Shaun Gardner</span>
+          <span class="contact-list--item-body--message">Ok that sounds perfect <i class="icon icon-thumbs-up"></i></span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">30 min</span>
+        </div>
+      </div>
+
+      <div class="contact-list--item online">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Mace_Windu.png');"></div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Mace Windu</span>
+          <span class="contact-list--item-body--message">Protect the senator at all costs.</span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">38 min</span>
+        </div>
+      </div>
+
+      <div class="contact-list--item">
+        <div class="contact-list--item-avatar avatar" style="background-image: url('../static/i/Kayne_West.png');"></div>
+        <div class="contact-list--item-body">
+          <span class="contact-list--item-body--name">Kayne West</span>
+          <span class="contact-list--item-body--message">So tell the voice inside your...</span>
+        </div>
+        <div class="contact-list--item-control">
+          <a href="#"><span class="icon icon-more"></span></a>
+          <span class="contact-list--item-control-time">49 min</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CHAT -->
+  <div class="chat-body">
+
+    <div class="chat-body--header">
+      <div class="text">
+        <span class="username is-typing">Kirsten Mckellar</span>
+      </div>
+      <a href="#" class="header-control-item">
+        <span class="icon icon-star"></span>
+      </a>
+      <a href="#" class="header-control-item">
+        <span class="icon icon-call"></span>
+      </a>
+      <a href="#" class="header-control-item">
+        <span class="icon icon-video-call"></span>
+      </a>
+    </div>
+    
+    <div class="messages">
+
+      <div class="message">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/Kirsten_Mckellar.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:47
+          </div>
+        </div>
+        <div class="bubble">
+          It goes a little something like this.
+        </div>
+      </div>
+
+      <div class="message">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/Kirsten_Mckellar.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:38
+          </div>
+        </div>
+        <div class="bubble">
+          It was all a dream, I used to read Word Up magazine Salt'n'Pepa and Heavy D up in the limousine.
+        </div>
+      </div>
+
+      <div class="message outgoing">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/user.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:39
+          </div>
+        </div>
+        <div class="bubble">
+          Did you ever Hang' pictures on your wall?
+        </div>
+      </div>
+
+      <div class="message">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/Kirsten_Mckellar.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:40
+          </div>
+        </div>
+        <div class="bubble">
+          Yes I did! Every Saturday! Rap Attack, Mr. Magic, Marley Marl. I even let my tape rock 'til my tape popped. Smokin' weed and bamboo, sippin' on private stock.  But this was way back, when I had the red and black lumberjack with the hat to match.
+        </div>
+      </div>
+
+      <div class="message outgoing">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/user.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:39
+          </div>
+        </div>
+        <div class="bubble">
+          Haha awesome,  I think I know the album your looking. 
+        </div>
+      </div>
+
+      <div class="message outgoing">
+        <div class="msg-nfo">
+          <div class="sender">
+            <div class="avatar" style="background-image: url('../static/i/user.png');">
+            </div>
+          </div>
+          <div class="time">
+            12:39
+          </div>
+        </div>
+        <div class="bubble">
+          <a href="#" class="albumart">
+            <img src="../static/i/album-art.png" alt="cover">
+          </a>
+          <div class="info">
+            <div class="text">
+              Ready To Die<br>
+              <div class="sm">The Notorious B.I.G.</div>
+            </div>
+            <div class="rating-empty">
+              <div class="rating-filled" style="width: 80%"></div>
+            </div>
+            <a href="#" class="buynow">
+              $12.99  -  BUY NOW
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-body--footer">      
+      <div class="attach">
+        <a href="#" class="paperclip">
+          <span class="icon icon-paperclip"></span>
+        </a>
+      </div>
+      <input type="text" class="message" placeholder="Type your message...">
+      <div class="emojis">
+        <a href="#">
+          <span class="icon icon-emoji"></span>
+        </a>        
+      </div>
+      <div class="send">
+        <a href="#" class="send-btn">
+          <span class="icon icon-send"></span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROFILE BAR -->
+  <div class="profile-bar">
+    <div class="header">
+      <a href="#" class="header-control-item">
+        <span class="icon icon-notifications"></span>
+      </a>
+      <div class="text">
+        <span class="username">Matt Thompson</span>
+      </div>
+    </div>
+    <div class="profile-thumbnail">
+      <div class="chat-type">
+        <span class="icon icon-fb-small"></span>
+      </div>
+      <div class="controls">
+        <a href="#"><span class="icon icon-more-dark"></span></a>
+      </div>
+      <div class="mugshot">
+        <div class="avatar" style="background-image: url('../static/i/Kirsten_Mckellar.png');"></div>
+        <div class="text">
+          <div class="name">
+            Kirsten Mckellar
+          </div>
+          <div class="origin">
+            Cape Town, RSA
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="details-container">
+      <div class="detail">
+        <span class="detail-name">Nickname:</span>
+        <span class="detail-value">Killa Kella</span>
+      </div>
+      <div class="detail">
+        <span class="detail-name">Tel:</span>
+        <span class="detail-value">072 143 9920</span>        
+      </div>
+      <div class="detail">
+        <span class="detail-name">Date Of Birth:</span>
+        <span class="detail-value">July 12, 1988</span>        
+      </div>
+      <div class="detail">
+        <span class="detail-name">Gender:</span>
+        <span class="detail-value">Female</span>        
+      </div>
+      <div class="detail">
+        <span class="detail-name">Language:</span>
+        <span class="detail-value">English</span>        
+      </div>      
+    </div>
+  </div>
 
 </body>
 </html>
